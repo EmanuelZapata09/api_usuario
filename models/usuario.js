@@ -30,11 +30,6 @@ const UsuarioSchema = Schema({
         type: Boolean,
         default: true,
         required: [true, 'El estado es obligatorio']
-    },
-    idRol:{
-        type: Schema.Types.ObjectId,
-        ref: 'Rol',
-        required: [true, 'El id del Rol es obligatorio']
     }
 })
 
